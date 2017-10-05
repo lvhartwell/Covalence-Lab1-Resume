@@ -1,7 +1,7 @@
-var name = "LaPearl Hartwell";
-var career = "Banking/Finance Services";
-var aboutMe = "I wear glasses";
-//var interests = ["hiking", "reading", " & cooking"];
+ar name = "LaPearl";
+var career = "Coding and Programming";
+var aboutMe = "I enjoy stormy afternoons";
+
 
 function logInterest(interest) {
     console.log("* " + interest);
@@ -15,9 +15,9 @@ function displayPosition(company, title, duties) {
         console.log("I worked for " +this.company + " as a " + this.title + "  " + this.duties);
     };
 }
-    var regions = new displayPosition ("Regions", "loans operations specialist", "booking loans and processing checks");
+    var midBank = new displayPosition ("Mid-size Bank", "loans operations specialist", "booking loans and processing checks");
   
-    var wellsfargo = new displayPosition ("Wells Fargo", "loan documents specialist 3", "processing home refinance applications");
+    var largeBank = new displayPosition ("Large Bank", "loan documents specialist 3", "processing home refinance applications");
 
 
 function displaySkill(talent, cool) {
@@ -42,18 +42,15 @@ console.log("Name " + name.toUpperCase());
 console.log("Careere Field: " + career);
 console.log(aboutMe);
 console.log("My Interests");
-//console.log("I enjoy " + interests);
 logInterest("hiking");
 logInterest("readng");
 logInterest("cooking");
 
 console.log("My Previous Experience");
-regions.previousExperience();
-wellsfargo.previousExperience();
+midBank.previousExperience();
+largeBank.previousExperience();
 
 console.log("My Skills");
 clarinet.skill();
 braid.skill();
 shop.skill();
-
-
