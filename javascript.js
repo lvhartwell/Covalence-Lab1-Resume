@@ -1,4 +1,4 @@
-ar name = "LaPearl";
+var name = "LaPearl";
 var career = "Coding and Programming";
 var aboutMe = "I enjoy stormy afternoons";
 
